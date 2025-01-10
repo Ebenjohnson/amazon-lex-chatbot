@@ -53,7 +53,7 @@ This project demonstrates how to set up [Project Name] using AWS services. The g
 - **Issue 2:** SSH connection to EC2 instance fails.
   - **Solution:** Verify that the security group attached to the instance allows inbound SSH traffic on port 22.
 
-## ðŸ”— Additional Resources
+## Additional Resources
 - [AWS S3 Documentation](https://docs.aws.amazon.com/s3/)
 - [AWS IAM Documentation](https://docs.aws.amazon.com/iam/)
 - [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/)
