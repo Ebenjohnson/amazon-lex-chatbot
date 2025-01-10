@@ -1,17 +1,17 @@
 # AMAZON LEX CHATBOT
 
-## ðŸŒ Overview
+## Overview
 This project demonstrates how to set up [Project Name] using AWS services. The goal is to [brief description of the project's purpose].
 
-## ðŸ—ï¸ Architecture
+## Architecture
 <img src="Architecture%20Diagram.png" alt="drawing" width="500"/>
 
-## ðŸ¥ª Prerequisites
+##  Prerequisites
 - AWS Account
 - IAM user with sufficient permissions
 - [Other tools, e.g., AWS CLI, Terraform, etc.]
 
-## ðŸ§± Setup Instructions
+## Setup Instructions
 
 ### Step 1: Create an S3 Bucket
 1. Log in to your AWS Management Console.
@@ -28,7 +28,7 @@ This project demonstrates how to set up [Project Name] using AWS services. The g
 2. Click on "Launch Instance" and follow the prompts to launch a new EC2 instance.
 3. Select the previously created IAM role during the instance setup.
 
-## ðŸ› ï¸ Configuration Details
+## Configuration Details
 
 ### S3 Bucket Configuration
 - Bucket Name: `example-bucket`
@@ -39,12 +39,12 @@ This project demonstrates how to set up [Project Name] using AWS services. The g
 - Role Name: `example-role`
 - Attached Policies: `AmazonS3FullAccess`, `AmazonEC2FullAccess`
 
-## ðŸ½ï¸ Usage Instructions
+## Usage Instructions
 1. Access the S3 bucket at `http://example-bucket.s3-website-region.amazonaws.com`.
 2. SSH into the EC2 instance using the public IP address: `ssh -i "key-pair.pem" ec2-user@ec2-public-ip`.
 3. [Other usage instructions]
 
-## ðŸš¨ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 - **Issue 1:** Unable to access S3 bucket.
